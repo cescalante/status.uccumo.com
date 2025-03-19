@@ -3,7 +3,7 @@ layout: clean
 ---
 
 <div style="text-align: center;">
-    <img src="media/image.png" alt="UCCUMO Logo" style="max-width: 300px; margin-bottom: 30px;">
+    <img src="media/image.png" alt="UCCUMO Logo" style="max-width: 300px; margin-bottom: 15px;">
     
 
     <div style="background-color: #fff3cd; border: 1px solid #ffeeba; padding: 20px; border-radius: 5px; margin: 20px auto; max-width: 600px;">
