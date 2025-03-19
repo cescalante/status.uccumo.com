@@ -1,7 +1,7 @@
 ---
 layout: clean
 title: "Outage Update - Restoration Quote"
-date: 2025-03-19 04:30:00 -0500
+date: 2025-03-19 03:05:00 -0500
 categories: outage update
 markdownlint:
   disable: ["MD033"]  # Disable inline HTML warning
