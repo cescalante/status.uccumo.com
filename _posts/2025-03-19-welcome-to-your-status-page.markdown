@@ -3,11 +3,13 @@ layout: clean
 title: "Website Outage - Server Issues"
 date: 2025-03-19 01:10:00 -0500
 categories: outage
+markdownlint:
+  disable: ["MD033"]  # Disable inline HTML warning
 ---
 
 <div style="max-width: 800px; margin: 0 auto; padding: 20px;">
     <div style="background-color: #fff3cd; border: 1px solid #ffeeba; padding: 20px; border-radius: 5px; margin-bottom: 20px;">
-        <h2 style="color: #856404; margin-top: 0;">🔧 Current Status</h2>
+        <h2 style="color: #856404; margin-top: 0;">🛑 Current Status</h2>
         <p>Our main website (uccumo.com) is currently experiencing technical difficulties due to server connectivity issues. Our team was alerted to the outage at approximately 1:10 AM CST.</p>
         <p><strong>Impact:</strong> Members cannot access the main website. However, online banking remains fully operational.</p>
     </div>

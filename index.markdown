@@ -1,5 +1,7 @@
 ---
 layout: clean
+markdownlint:
+  disable: ["MD033"]  # Disable inline HTML warning
 ---
 
 <div style="text-align: center;">
