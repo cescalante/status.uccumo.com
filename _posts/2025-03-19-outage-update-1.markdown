@@ -9,7 +9,7 @@ markdownlint:
 
 <div style="max-width: 800px; margin: 0 auto; padding: 20px;">
     <div style="background-color: #cce5ff; border: 1px solid #b8daff; padding: 20px; border-radius: 5px; margin-bottom: 20px;">
-        <h2 style="color: #004085; margin-top: 0;">🛑 Update Summary</h2>
+        <h2 style="color: #004085; margin-top: 0;">📊 Update Summary</h2>
         <p>Our technical team has identified the root cause of the outage: a misconfigured network route at our primary data center.</p>
         <p><strong>Time Identified:</strong> 2:30 AM CST</p>
     </div>

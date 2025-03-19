@@ -7,7 +7,7 @@ markdownlint:
 ---
 
 <div style="max-width: 800px; margin: 50px auto; padding: 0 20px;">
-    <img src="{{ site.baseurl }}/media/image.png" alt="UCCUMO Logo" style="max-width: 200px; margin-bottom: 30px;">
+    <img src="../media/image.png" alt="UCCUMO Logo" style="max-width: 200px; margin-bottom: 30px;">
     
     <h1 style="color: #333; margin-bottom: 30px;">Status Update History</h1>
 
