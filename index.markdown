@@ -4,32 +4,30 @@ markdownlint:
   disable: ["MD033"]  # Disable inline HTML warning
 ---
 
-<div style="text-align: center; margin: 50px 0;">
-    <img src="{{ site.baseurl }}/media/image.png" alt="UCCUMO Logo" style="max-width: 300px; margin-bottom: 30px;">
+<div style="text-align: center;">
+    <img src="media/image.png" alt="UCCUMO Logo" style="max-width: 300px; margin-bottom: 15px;">
+    
+
+    <div style="background-color: #fff3cd; border: 1px solid #ffeeba; padding: 20px; border-radius: 5px; margin: 20px auto; max-width: 600px;">
+        <h2 style="color: #4d0026;">🔧 Temporary Website Maintenance</h2>
+        <p>We are currently experiencing technical difficulties with our website. Our team is working diligently to resolve this issue.</p>
+    </div>
+
+    <div style="background-color: #d4edda; border: 1px solid #c3e6cb; padding: 20px; border-radius: 5px; margin: 20px auto; max-width: 600px;">
+        <h2 style="color: #155724;">✅ Online Banking Available</h2>
+        <p>Your online banking services remain available and secure.</p>
+        <a href="https://hb3.intech-inc.com/UCCU/" target="_blank" style="display: inline-block; background-color: #28a745; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; margin-top: 10px;">Access Online Banking</a>
+    </div>
+    <div style="background-color: #fff; border: 1px solid #ccc; padding: 20px; border-radius: 5px; margin: 20px auto; max-width: 600px;">
+        <h3 style="color: #000;">Contact Information</h3>
+        <ul style="list-style: none; padding: 0;">
+            <li>📞 Customer Service: <a href="tel:1-816-325-6900">1-816-325-6900</a></li>
+            <li>📧 Support Email: <a href="mailto:support@uccumo.com">support@uccumo.com</a></li>
+        </ul>
+    </div>
 </div>
-
-<div style="max-width: 800px; margin: 0 auto; padding: 20px;">
-    <div style="background-color: #d4edda; border: 1px solid #c3e6cb; padding: 20px; border-radius: 5px; margin-bottom: 20px;">
-        <h2 style="color: #155724; margin-top: 0;">✅ All Systems Operational</h2>
-        <p>All UCCUMO services are fully operational. The network provider issue has been resolved.</p>
-        <p><strong>Last Updated:</strong> March 19, 2025 at 9:30 AM CST</p>
-    </div>
-
-    <div style="background-color: #e2e3e5; border: 1px solid #d6d8db; padding: 20px; border-radius: 5px; margin-bottom: 20px;">
-        <h2 style="color: #383d41; margin-top: 0;">⚡ Quick Links</h2>
-        <ul style="margin: 0; padding-left: 20px;">
-            <li><a href="https://uccumo.com" style="color: #28a745;">Main Website</a></li>
-            <li><a href="https://hb3.intech-inc.com/UCCU/" style="color: #28a745;">Online Banking</a></li>
-            <li><a href="{{ site.baseurl }}/posts/" style="color: #28a745;">View Status History</a></li>
-        </ul>
-    </div>
-
-    <div style="background-color: #d4edda; border: 1px solid #c3e6cb; padding: 20px; border-radius: 5px;">
-        <h2 style="color: #155724; margin-top: 0;">✅ Service Status</h2>
-        <ul style="margin: 0; padding-left: 20px;">
-            <li>Main Website: ✅ Fully Operational</li>
-            <li>Online Banking: ✅ Fully Operational</li>
-            <li>Mobile App: ✅ Fully Operational</li>
-        </ul>
-    </div>
+<div style="text-align: center; margin: 50px 0;"> 
+    <ul style="list-style: none; padding: 0;">
+        <li>🕒 Last Updated: {{ site.time | date: "%B %d, %Y at %I:%M %p" }}</li>
+    </ul>
 </div>
