@@ -17,10 +17,15 @@ layout: clean
         <a href="https://hb3.intech-inc.com/UCCU/" target="_blank" style="display: inline-block; background-color: #28a745; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; margin-top: 10px;">Access Online Banking</a>
     </div>
     <div style="background-color: #fff; border: 1px solid #ccc; padding: 20px; border-radius: 5px; margin: 20px auto; max-width: 600px;">
+        <h3 style="color: #000;">Contact Information</h3>
         <ul style="list-style: none; padding: 0;">
-            <li>🕒 Last Updated: {{ site.time | date: "%B %d, %Y at %I:%M %p" }}</li>
             <li>📞 Customer Service: <a href="tel:1-816-325-6900">1-816-325-6900</a></li>
             <li>📧 Support Email: <a href="mailto:support@uccumo.com">support@uccumo.com</a></li>
         </ul>
     </div>
+</div>
+<div style="text-align: center; margin: 50px 0;"> 
+    <ul style="list-style: none; padding: 0;">
+        <li>🕒 Last Updated: {{ site.time | date: "%B %d, %Y at %I:%M %p" }}</li>
+    </ul>
 </div>
